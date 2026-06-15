@@ -1,7 +1,7 @@
 clear all
 * Write down the directory below
-cd "/Users/heitorpellegrina/Dropbox/my-hello-world-econ/data/code"
+cd "C:\Users\aidan\OneDrive\Desktop\Github test\my-hello-world-econ/data"
 
 * IMPORT DATA FROM .CSV TO .DTA
-import delimited using ".././input/urbanpop.csv", clear
-save ".././output/finaldata.dta", replace
+insheet using "input/urbanpop.csv", clear
+save "output/finaldata.dta", replace
